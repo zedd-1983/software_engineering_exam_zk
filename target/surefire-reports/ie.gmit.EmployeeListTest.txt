@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ie.gmit.EmployeeListTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.121 s <<< FAILURE! - in ie.gmit.EmployeeListTest
+ie.gmit.EmployeeListTest.testParamConstructorInvalid  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.IllegalArgumentException: Need to provide EmployeeList as parameter
+	at ie.gmit.EmployeeListTest.init(EmployeeListTest.java:27)
+
+ie.gmit.EmployeeListTest.testParamConstructorValid  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.IllegalArgumentException: Need to provide EmployeeList as parameter
+	at ie.gmit.EmployeeListTest.init(EmployeeListTest.java:27)
+
+ie.gmit.EmployeeListTest.testDefaultConstructor  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Need to provide EmployeeList as parameter
+	at ie.gmit.EmployeeListTest.init(EmployeeListTest.java:27)
+

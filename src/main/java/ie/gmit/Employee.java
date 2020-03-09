@@ -1,3 +1,11 @@
+/*
+    Employee class storing details of an employee
+    Author: Zdenek Krousky
+    g00267758
+
+ */
+
+
 package ie.gmit;
 
 public class Employee {
@@ -12,7 +20,7 @@ public class Employee {
     }
 
     public Employee(String name, String phone, String id, int age) {
-        if(name == null || phone == null || id == null || age == 0) {
+        if(name == "" || phone == "" || id == "" || age == 0) {
             throw new IllegalArgumentException("Must use all the parameters to create Employee");
         } else {
             this.name = name;
